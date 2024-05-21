@@ -58,6 +58,7 @@
     transform: scale(1.04);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 .progressBar{
     margin-bottom: 50px;
