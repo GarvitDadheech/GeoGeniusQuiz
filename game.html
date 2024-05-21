@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGenius</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <div class="progressBar">
+                <p class="quesNumber">Question 1/<span id="numQuest"></span></p>
+                <div class="bar-boundary">
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <div class="scoreDisplay">
+                <h2>Score</h2>
+                <div class="currScore">0</div>
+            </div>
+        </div>
+        
+        <h1 class="question">What is capital of France?</h1>
+        <div class="option">
+            <h2 class="optionSymbol">A</h2>
+            <div class="questText" id="optA">London</div>
+        </div>
+        <div class="option">
+            <h2 class="optionSymbol">B</h2>
+            <div class="questText" id="optB">Paris</div>
+        </div>
+        <div class="option">
+            <h2 class="optionSymbol">C</h2>
+            <div class="questText" id="optC">Delhi</div>
+        </div>
+        <div class="option">
+            <h2 class="optionSymbol">D</h2>
+            <div class="questText" id="optD">Serbia</div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+    <script>
+        const num = localStorage.getItem('numOfQuest');
+        document.getElementById('numQuest').innerText = num;
+    </script>
+</body>
+</html>

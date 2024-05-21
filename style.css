@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.btn {
+    border-radius: 5px;
+    background-color:white;
+    border: 2px solid;
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 40px;
+    color:rgb(70, 135, 138);
+    font-weight: bolder;
+}
+.heading{
+    color: rgb(51, 117, 120);
+    font-size: 50px;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+.optionSymbol{
+    color: white;
+    background-color:rgb(49, 146, 207) ;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.questText{
+    background-color: white;
+    width: 500px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    margin-bottom: 20px;
+}
+.option:hover{
+    transform: scale(1.04);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.progressBar{
+    margin-bottom: 50px;
+    margin-left: -265px;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.quesNumber{
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    margin-top: -21px;
+}
+.scoreDisplay{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 250px;
+}
+.currScore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(40, 126, 180) ;
+    font-size: 2.5rem;
+}
+.correct{
+    background-color: greenyellow;
+}
+.incorrect{
+    background-color: rgb(241, 120, 120);
+}
+.finalHeading{
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: rgb(6, 47, 69);
+}
+.finalScoreDisplay{
+    margin-bottom: 80px;
+    font-size: 2rem;
+    color: rgb(7, 62, 61);
+}
+.finalbtn{
+    border-radius: 5px;
+    background-color:white;
+    border: 2px solid;
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(70, 135, 138);
+    font-weight: bolder;
+}
+.bar-boundary{
+    border: 2.5px rgb(49, 146, 207)  solid;
+    width:200px;
+    height: 30px;
+}
+.bar{
+    width: 0%;
+    background-color: rgb(49, 146, 207);
+    height: 30px;
+}
+
+
+

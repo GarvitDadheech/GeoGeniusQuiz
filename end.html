@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGenius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="finalHeading">Quiz Completed!</h1>
+        <h2 class="finalScoreDisplay">Your Score: <span id="finalScore"></span></h2>
+        <a href="game.html" class="finalbtn">Take Quiz Again</a>
+        <a href="index.html" class="finalbtn">Go Home</a>
+    </div>
+    <script>
+        const score = localStorage.getItem('mostRecentScore');
+        document.getElementById('finalScore').innerText = score;
+    </script>
+</body>
+</html>
